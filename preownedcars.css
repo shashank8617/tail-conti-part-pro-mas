@@ -1,0 +1,86 @@
+body{
+   background-image: url(../HTML/images/car3);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-size: cover;
+}
+h1{
+    height: 50px;
+    font-size: 300px;
+    color: rgb(9, 6, 3);
+    background-color: rgb(146, 193, 92);
+    font-size: 200%;
+}
+#article.ca{
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 20px;
+    height: 600px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    align-items: center;
+    font-size: 50px;
+    font-family: monospace;
+    color:azure;
+    row-gap: 10px;
+    text-underline-position: below;
+}
+#one{
+    background-image: url(../HTML/images/sedan1.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    background-color: azure;
+    justify-content: space-around;
+    row-gap: 10px;
+    cursor: pointer;
+
+}
+#two{
+    background-image: url(../HTML/images/suv1.jpeg);
+    background-size: 100% 100%; */
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    justify-content: space-around;
+    row-gap: 10px;
+    cursor: pointer;
+
+}
+#three{
+    background-image: url(../HTML/images/offroader.webp);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    justify-content: space-around;
+    row-gap: 10px;
+    cursor: pointer;
+}
+
+
+nav{
+    background-color: antiquewhite;
+    background-size: 100% 100%;
+    background-position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    height: 60px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
