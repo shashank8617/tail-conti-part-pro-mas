@@ -1,0 +1,25 @@
+{
+    margin: 0;
+}
+#grid-container{
+    height: 600px;
+    width: 80vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    grid-template-rows: 200px 200px 200px;
+  
+}
+.grid-items{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px double blue;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+#item2{
+    
+}
